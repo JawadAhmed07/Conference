@@ -1,0 +1,319 @@
+#mainpage{
+    background-image: url("https://www.liveabout.com/thmb/fGod_h4vdkiWMB5vDv59PTc_6RY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/10191182-F-56a831ab5f9b58b7d0f17234.jpg");
+    height: 720px;
+    width: 1510px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+#nav{
+    background-color: rgba(0, 0, 0, 0.892);
+}
+a{
+    color: white;
+}
+#homelink{
+    padding-left: 350px;
+}
+#link:hover{
+    color: rgb(66, 215, 245);
+    cursor:grab;
+}
+#homelink:hover{
+    color: rgb(66, 215, 245);
+}
+#button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    /* color: #17C3B2; */
+    color: white;
+}
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+   
+   button:hover::before {
+    width: 105%;
+    
+}
+   
+   button:hover {
+    color: #111;
+}
+.scienceconference{
+    background-image: linear-gradient(#344e41,#a3b18a);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 900px;
+    margin-top: 230px;
+    font-weight: 700;
+    font-size: 80px;
+}
+*{
+    font-family: "Poppins";
+}
+#hotel{
+    color: white;
+    margin-left: 900px;
+    font-weight:bold;
+    font-size: 120%;
+    background-color: rgba(255, 255, 255, 0.133);
+}
+#buttons{
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    /* color: #17C3B2; */
+    color: white;
+    margin-left: 1200px;
+    margin-top: 20px;
+}
+   
+   #buttons::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+   
+   #buttons:hover::before {
+    width: 105%;
+    
+}
+   
+   #buttons:hover {
+    color: #111;
+
+}
+.secondpage{
+    background-color: rgb(23, 23, 71);
+    height: 100vh;
+    width: 100wh;
+}
+#sp{
+    /* background-color: #17C3B2; */
+    height: 600px;
+    width: 550px;
+    color: rgb(169, 56, 197);
+    padding: 90px;
+}
+h3{
+    /* text-decoration: underline; */
+}
+h4{
+    text-transform:uppercase;
+    font-weight: 900;
+    color: white;
+    font-size: 30px;
+}
+p{
+    font-size: large;
+    line-height: 2;
+    color: white;
+}
+.spbtn{
+    background-image: linear-gradient(#3a86ff,#8338ec);
+    height: 40px;
+    width: 140px;
+    text-transform: uppercase;
+}
+#A{
+    /* color: white; */
+    padding-left: 320px;
+    /* padding-bottom: 30px; */
+    font-weight: 900;
+    font-size: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://media.istockphoto.com/id/1371896330/photo/happy-asian-woman-in-his-graduation-day.webp?b=1&s=170667a&w=0&k=20&c=apaOUEdB5N5xYWUstQ5eVbmUHJtq9urMK68CTF0XNbk=");
+    background-size: 100% 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#imgone{
+    background-image: url("https://preview.colorlib.com/theme/confer/img/bg-img/4.jpg");
+    height: 300px;
+    width: 280px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+    opacity: 0.9;
+}
+#emily{
+    padding: 5px;
+    padding-top: 220px;
+}
+#emily h4{
+    color: rgb(206, 25, 185);
+}
+#emily h5{
+    color: white;
+}
+#thirdpage{
+    height: 900px;
+    background-image: linear-gradient(rgb(234, 83, 234),rgb(34, 8, 71));
+}
+#imgtwo{
+ background-image: url("https://preview.colorlib.com/theme/confer/img/bg-img/5.jpg");
+ height: 300px;
+ width: 280px;   
+ background-position: center;
+background-size: cover;
+ border-radius: 7px;
+ margin-top: 100px;
+ margin-left: 100px;
+ opacity: 0.9;
+}
+#imgthree{
+    background-image: url("https://preview.colorlib.com/theme/confer/img/bg-img/6.jpg");
+    height: 300px;
+ width: 280px;   
+ background-position: center;
+background-size: cover;
+ border-radius: 7px;
+ margin-top: 100px;
+ margin-left: 100px;
+}
+.text-center{
+    color: white;
+    padding-top: 215px;
+}
+#founder{
+    color: rgb(223, 22, 196);
+    text-align: center;
+    font-weight:bolder;
+    font-size: 35px;
+}
+.speaker{
+    background-image: linear-gradient(rgb(176, 7, 233),rgb(80, 80, 167));
+    margin-left: 640px;
+    margin-top: 25px;
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    color: white;
+}
+#fourthpage{
+    height:900px;
+    background-image: linear-gradient(rgb(176, 7, 233),rgb(80, 80, 167));
+}
+.main__heading {
+    font-weight: 600;
+    font-size: 2.25em;
+    margin-bottom: 0.75em;
+    text-align: center;
+    color: #eceff1;
+  }
+  
+  .cards {
+    position: relative;
+  }
+  
+  .card {
+    --flow-space: 0.5em;
+    --hsl: var(--hue), var(--saturation), var(--lightness);
+    flex: 1 1 14rem;
+    padding: 1.5em 2em;
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    align-items: start;
+    gap: 1.25em;
+    color: #eceff1;
+    background-color: #2b2b2b;
+    border: 1px solid #eceff133;
+    border-radius: 15px;
+    width: 300px;
+  }
+  
+  .card:nth-child(1) {
+    --hue: 165;
+    --saturation: 82.26%;
+    --lightness: 51.37%;
+  }
+  
+  .card__bullets {
+    line-height: 1.4;
+  }
+  
+  .card__heading {
+    font-size: 1.05em;
+    font-weight: 600;
+  }
+  
+  .card__price {
+    font-size: 1.75em;
+    font-weight: 700;
+  }
+  
+  .flow > * + * {
+    margin-top: var(--flow-space, 1.25em);
+  }
+  
+  .cta {
+    display: block;
+    align-self: end;
+    margin: 1em 0 0.5em 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    outline: 1px solid white;
+    padding: 0.7em;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .card:hover {
+    --lightness: 80%;
+    background: #ffffff80;
+    color: #000;
+    outline: 1px solid rgb(255, 255, 255);
+    box-shadow: inset 0 0 80px whitesmoke, inset 20px 0 80px rgba(255, 0, 255, 0.747),
+      inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
+      0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .card:hover > .cta {
+    outline: none;
+    background-color: #0d0d0d;
+  }
+  
